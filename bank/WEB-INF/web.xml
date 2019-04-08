@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<web-app>
+
+    <servlet>
+        <servlet-name>actTransferServlet</servlet-name>
+        <servlet-class>org.my12.bank.servlet.ActTransferServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>actTransferServlet</servlet-name>
+        <url-pattern>/act/transfer</url-pattern>
+    </servlet-mapping>
+</web-app>
